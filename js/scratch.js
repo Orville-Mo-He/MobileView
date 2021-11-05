@@ -34,7 +34,7 @@ function myFunction() {
 document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
     var adobeDCView = new AdobeDC.View({clientId: "a6fbbfe327884c68b99c32062e40e1eb", divId: "adobe-dc-view"});
     adobeDCView.previewFile({
-        content:{location: {url: "https://orville-mo-he.github.io/MovibleView/assets/Writing/BGReport.pdf"}},
+        content:{location: {url: "https://orville-mo-he.github.io/MobileView/assets/Writing/BGReport.pdf"}},
         metaData:{fileName: "Bodea Brochure.pdf"}
     }, {});
 });
