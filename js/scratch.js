@@ -41,7 +41,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function(){
 
 
 
-
+//also ripped from w3 :P
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
